@@ -85,7 +85,7 @@ index 128b268539e956d0f78084b62c10138e6eb4c22a..e58226afcbf9d43248243ee4b7a2f5fe
      public Component getVersionMessage(@Nonnull String serverVersion) {
 -        String[] parts = serverVersion.substring("git-Purpur-".length()).split("[-\\s]"); // Tuinity // Purpur
 -        final Component updateMessage = getUpdateStatusMessage("pl3xgaming/Purpur", "ver/" + getMinecraftVersion(), parts[0]); // Tuinity // Purpur
-+        String[] parts = serverVersion.substring("git-Airplane-".length()).split("[-\\s]"); // Tuinity
++        String[] parts = serverVersion.substring("murbyteteam-Malina-".length()).split("[-\\s]"); // Tuinity
 +        final Component updateMessage = getUpdateStatusMessage("TECHNOVE/Airplane", "master", parts[0]); // Tuinity
          final Component history = getHistory();
  
