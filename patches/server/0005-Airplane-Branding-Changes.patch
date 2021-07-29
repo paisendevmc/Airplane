@@ -136,7 +136,7 @@ index e74ddf6b72dbd335f8a06f05341d5a4d99afa428..36261be976cc0e191e4f2c2feda28958
      public String getServerModName() {
 -        return net.pl3x.purpur.PurpurConfig.serverModName; // Purpur // Tuinity // Paper // Spigot // CraftBukkit
 +        String purpurName = net.pl3x.purpur.PurpurConfig.serverModName;
-+        return purpurName.equals("Purpur") ? "AirplanePurpur" : purpurName; // Airplane // Tuinity - Tuinity > //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
++        return purpurName.equals("MalinaMurbyte") ? "MalinaMurbyte" : purpurName; // Airplane // Tuinity - Tuinity > //Paper - Paper > // Spigot - Spigot > // CraftBukkit - cb > vanilla!
      }
  
      public SystemReport fillSystemReport(SystemReport details) {
@@ -149,7 +149,7 @@ index ef1004a277e4ae0bdec410c42271b4060227313f..f337ad025badb73f8bcd8d951e2b8883
  
  public final class CraftServer implements Server {
 -    private final String serverName = "Purpur"; // Paper // Tuinity // Purpur
-+    private final String serverName = "AirplanePurpur"; // Airplane // Tuinity // Paper
++    private final String serverName = "MalinaMurbyte"; // Airplane // Tuinity // Paper
      private final String serverVersion;
      private final String bukkitVersion = Versioning.getBukkitVersion();
      private final Logger logger = Logger.getLogger("Minecraft");
