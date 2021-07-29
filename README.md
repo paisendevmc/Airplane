@@ -9,7 +9,7 @@
 [fork]: https://github.com/TECHNOVE/MyAirplaneFork
 [wiki]: https://github.com/TECHNOVE/Airplane/wiki
 
-# Airplane
+# AirplaneXD
 A stable, optimized, well supported 1.17 Paper fork.
 
 [Homepage][home] - [Downloads][downloads] - [Blog][blog] - [Discord][discord] - [airplane.air][wiki]
